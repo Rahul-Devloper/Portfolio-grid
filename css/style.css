@@ -8,6 +8,8 @@
 #main-header .port-item:hover{
     opacity: 0.8;
     cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 
 .bg-black{
@@ -20,4 +22,18 @@
         padding: 3em !important;
     }
 
+}
+
+
+i:hover{
+    transform: translate3d(0px,-6px,0px);
+    transition: 0.5s;
+}
+#work img{
+    transition: 0.5s;
+}
+
+#work img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
 }
